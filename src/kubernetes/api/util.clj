@@ -47,7 +47,7 @@
     :else (try
             (json/read-str body :key-fn keyword)
             (catch Exception e
-              body))))
+              {:success false :error e}))))
 
 (defn- basic-auth? [{:keys [username password]}]
   (every? some? [username password]))

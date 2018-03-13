@@ -1,5 +1,6 @@
 (ns kubernetes.api.util-test
   (:require [clojure.test :refer :all]
+            [clojure.data.json :as json]
             [kubernetes.api.util :as util]))
 
 (deftest content-type-test
@@ -113,3 +114,9 @@
                 :path   "/foo"
                 :body   {:json true}}]
       (is (= "{\"json\":true}" (:body (#'util/request-body-opts opts)))))))
+
+(deftest parse-response-test
+  (testing "when parsing exception, pass the exception forward"
+    (with-redefs-fn {#'json/read-str (fn [& _] (throw (Exception. "read-str exception")))}
+      #(and (is (= false (:success (util/parse-response {}))))
+            (is (= Exception (-> (util/parse-response {}) :error type)))))))
