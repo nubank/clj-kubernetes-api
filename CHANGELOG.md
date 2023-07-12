@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
+## [1.10.0] - 2022-07-12
+### Added
+- Add security.istio.io namespace
+
 ## [1.9.0] - 2022-07-06
 ### Added
 - Add networking.istio.io namespace
