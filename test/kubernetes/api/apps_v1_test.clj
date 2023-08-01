@@ -1,6 +1,6 @@
 (ns kubernetes.api.apps-v1-test
   (:require [clojure.core.async :refer [<!!] :as async]
-            [clojure.test :refer :all]
+            [clojure.test :refer [deftest use-fixtures testing is]]
             [kubernetes.api.apps-v1 :as a-v1]
             [kubernetes.api.common :as common]
             [kubernetes.api.v1 :as v1]))
