@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file. This change
 
 ## [1.11.0] - 2023-08-01
 ### Added
-- Add kubernetes.api.v1-23-17.apps-v1 namespace
+- Add kubernetes.api.storage-k8s-io-v1 namespace
 
 ## [1.10.0] - 2022-07-12
 ### Added
