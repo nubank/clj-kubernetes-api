@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
+## [1.11.0] - 2023-08-01
+### Added
+- Add `kubernetes.api.storage-k8s-io-v1` namespace
+- Add `declare` statement to allow static analysis to know about methods on `kubernetes.api.v1`
+
 ## [1.10.0] - 2022-07-12
 ### Added
 - Add security.istio.io namespace
