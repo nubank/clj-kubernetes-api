@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
+## [1.13.0] - 2023-08-01
+### Added
+- Add autoscaling/v2 namespace
+
 ## [1.12.0] - 2023-08-01
 ### Added
 - Add policy/v1 namespace
