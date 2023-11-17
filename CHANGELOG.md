@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
+## [1.14.0] - 2023-11-17
+### Added
+- Add batch/v1 namespace
+
 ## [1.13.0] - 2023-08-01
 ### Added
 - Add autoscaling/v2 namespace
