@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
-## [1.14.0] - 2025-09-04
+## [1.15.0] - 2025-09-04
 ### Added
 - Add argoproj_io_v1alpha1 namespace
 
