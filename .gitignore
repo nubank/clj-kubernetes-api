@@ -7,10 +7,29 @@ pom.xml.asc
 *.class
 /.lein-*
 /.nrepl-port
+.nrepl-history
+.rebel_readline_history
+.cpcache/
+profiles.clj
 .hgignore
 .hg/
 *.iml
 *.swp
+.swo
+.swn
 .idea/*
+.idea/
+.vscode/
+.calva/
+.lsp/
+.clj-kondo/
+
+# macOS
+.DS_Store
+
+# Emacs backups
+*~
+\#*\#
+.\#*
 
 doc
