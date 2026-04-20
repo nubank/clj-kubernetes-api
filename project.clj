@@ -1,8 +1,8 @@
-(defproject nubank/kubernetes-api "1.15.0"
+(defproject com.rtcritical/kubernetes-api "1.16.0"
   :description "Kubernetes Client API Library"
-  :url "https://github.com/nubank/clj-kubernetes-api"
+  :url "https://github.com/rtcritical/clj-kubernetes-api"
   :license {:name "MIT"
-            :url  "https://github.com/nubank/clj-kubernetes-api/blob/master/LICENSE"}
+            :url  "https://github.com/rtcritical/clj-kubernetes-api/blob/master/LICENSE"}
 
   :plugins [[lein-ancient "0.7.0"]]
 

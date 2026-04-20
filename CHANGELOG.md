@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
+## [1.16.0] - 2026-01-21
+### Added
+- Add gateway.networking.k8s.io/v1 namespace
+- Add networking.istio.io/v1 namespace
+- Add telemetry.istio.io/v1 namespace
+- Add support for parsing OpenAPI v3 documents
+- Add scripts/add_kubernetes_crd.sh to automate adding support for new CRDs/namespaces
+
 ## [1.15.0] - 2025-09-04
 ### Added
 - Add argoproj_io_v1alpha1 namespace
